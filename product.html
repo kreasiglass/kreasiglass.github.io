@@ -32,6 +32,32 @@
 		<link rel="stylesheet" type="text/css" href="css/util.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	<!--===============================================================================================-->
+
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+	<style>
+	.page {
+	  display: none;
+	}
+	.page-active {
+	  display: flex;
+	}
+	.pagination>li {
+    	display: inline;
+	}
+	.pagination-lg .page-link {
+    	padding: .25rem .5rem;
+    	font-size: 1rem;
+    	line-height: 1;
+	}
+	.pagination {
+     margin: 0px; 
+    /* margin-left: -6px; */
+	}
+	.ekko-lightbox-nav-overlay a {
+    
+    	color: #000;
+	}
+	</style>
 </head>
 <body class="animsition">
 
@@ -171,8 +197,6 @@
 	<!-- Content page -->
 	<section class="bgwhite p-t-55 p-b-65">
 		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 col-md-12 col-lg-12 p-b-50">
 					<!--  -->
 					<div class="flex-sb-m flex-w p-b-35">
 
@@ -182,96 +206,366 @@
 					</div>
 
 					<!-- Product -->
-					<div class="row">
-						<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
-							<!-- Block2 -->
-							<div class="block2">
-								<div class="block2-img wrap-pic-w of-hidden pos-relative">
-									<img src="images/gallery/patri-kuningan-1.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
-									<div class="block2-overlay trans-0-4">
-										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
-											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
-											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+					<div class="row page" id="page1">
+
+							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/inlay-1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/inlay-1.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Inlay.">
+											Tanya Harga
 										</a>
 									</div>
 								</div>
-								<div class="block2-txt p-t-20">
-									<span class="block2-price m-text6 p-r-5">
-										Patri Kuningan
-									</span>
-								</div>
 							</div>
-						</div>
 
-						<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
-							<!-- Block2 -->
-							<div class="block2">
-								<div class="block2-img wrap-pic-w of-hidden pos-relative">
-									<img src="images/gallery/patri-kuningan-2.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
-									<div class="block2-overlay trans-0-4">
-										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
-											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
-											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/inlay-2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/inlay-2.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Inlay.">
+											Tanya Harga
 										</a>
 									</div>
 								</div>
-								<div class="block2-txt p-t-20">
-									<span class="block2-price m-text6 p-r-5">
-										Patri Kuningan
-									</span>
-								</div>
 							</div>
-						</div>
 
-						<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
-							<!-- Block2 -->
-							<div class="block2">
-								<div class="block2-img wrap-pic-w of-hidden pos-relative">
-									<img src="images/gallery/patri-kuningan-3.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
-									<div class="block2-overlay trans-0-4">
-										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
-											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
-											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/inlay-3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/inlay-3.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Inlay.">
+											Tanya Harga
 										</a>
 									</div>
 								</div>
-								<div class="block2-txt p-t-20">
-									<span class="block2-price m-text6 p-r-5">
-										Patri Kuningan
-									</span>
-								</div>
 							</div>
-						</div>
 
-						<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
-							<!-- Block2 -->
-							<div class="block2">
-								<div class="block2-img wrap-pic-w of-hidden pos-relative">
-									<img src="images/gallery/patri-kuningan-4.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
-									<div class="block2-overlay trans-0-4">
-										<a href="#" class="block2-btn-addwishlist hov-pointer trans-0-4">
-											<i class="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
-											<i class="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/inlay-cermin-1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/inlay-cermin-1.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Cermin%20Inlay.">
+											Tanya Harga
 										</a>
 									</div>
 								</div>
-								<div class="block2-txt p-t-20">
-									<span class="block2-price m-text6 p-r-5">
-										Patri Kuningan
-									</span>
+							</div>
+
+							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/patri-timah-1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/patri-timah-1.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Timah.">
+											Tanya Harga
+										</a>
+									</div>
 								</div>
 							</div>
-						</div>
 
+							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/galeri-1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/galeri-1.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kaligrafi%20Islami.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/galeri-2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/galeri-2.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kaligrafi%20Islami.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/galeri-3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/galeri-3.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kaligrafi%20Islami.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+							</div>
 					</div>
 
-					<!-- Pagination -->
-					<!-- <div class="pagination flex-m flex-w p-t-26">
-						<a href="#" class="item-pagination flex-c-m trans-0-4 active-pagination">1</a>
-						<a href="#" class="item-pagination flex-c-m trans-0-4">2</a>
-					</div> -->
-				</div>
-			</div>
+					<div class="row page" id="page2">
+						<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/patri-kuningan-1.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/patri-kuningan-1.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>	
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kuningan.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/patri-kuningan-2.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/patri-kuningan-2.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kuningan.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/patri-kuningan-3.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/patri-kuningan-3.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+										
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kuningan.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/patri-kuningan-4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/patri-kuningan-4.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kuningan.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+							</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/galeri-4.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/galeri-4.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kaligrafi%20Islami.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/galeri-5.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/galeri-5.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kaligrafi%20Islami.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/galeri-6.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/galeri-6.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kaligrafi%20Islami.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/galeri-7.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/galeri-7.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kaligrafi%20Islami.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+						</div>
+					</div>
+
+					<div class="row page" id="page3">
+						<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/galeri-8.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/galeri-8.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kaligrafi%20Islami.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/galeri-9.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/galeri-9.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kaligrafi%20Islami.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/galeri-10.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/galeri-10.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kaligrafi%20Islami.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/galeri-15.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/galeri-15.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kaligrafi%20Islami.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/galeri-11.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/galeri-11.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kaligrafi%20Islami.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/galeri-12.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/galeri-12.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kaligrafi%20Islami.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/galeri-13.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/galeri-13.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kaligrafi%20Islami.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+						</div>
+						<div class="col-sm-6 col-md-4 col-lg-3 p-b-50">
+								<!-- Block2 -->
+								<div class="block2">
+									<a href="images/gallery/galeri-14.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="">
+										<img src="images/gallery/galeri-14.jpg" width="270" height="270" alt="IMG-PRODUCT" style="object-fit: cover;">
+									</a>
+									<div class="block2-txt p-t-20">
+										<a class="block2-price m-text6 p-r-5" style="text-transform: none;"
+										href="https://wa.me/628159984494?text=Halo%2C%20saya%20melihat%20produk%20Kreasi%20Glass%20di%20website%20dan%0Asaya%20ingin%20menanyakan%20harga%20Kaca%20Patri%20Kaligrafi%20Islami.">
+											Tanya Harga
+										</a>
+									</div>
+								</div>
+						</div>
+
+
+					</div>
+					
+						<ul id="pagination-demo" class="pagination-lg pull-right"></ul>
 		</div>
 	</section>
 
@@ -357,26 +651,11 @@
 		</span>
 	</div>
 
-	<!-- Container Selection1 -->
-	<div id="dropDownSelect1"></div>
-
-	<!-- Modal Video 01-->
-	<div class="modal fade" id="modal-video-01" tabindex="-1" role="dialog" aria-hidden="true">
-
-		<div class="modal-dialog" role="document" data-dismiss="modal">
-			<div class="close-mo-video-01 trans-0-4" data-dismiss="modal" aria-label="Close">&times;</div>
-
-			<div class="wrap-video-mo-01">
-				<div class="w-full wrap-pic-w op-0-0"><img src="images/icons/video-16-9.jpg" alt="IMG"></div>
-				<div class="video-mo-01">
-					<iframe src="https://www.youtube.com/embed/Nt8ZrWY2Cmk?rel=0&amp;showinfo=0" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
 
 <!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/jquery/jquery-3.2.1.min.js"></script>
+
+	<script src="https://www.solodev.com/assets/pagination/jquery.twbsPagination.js"></script>
 <!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/animsition/js/animsition.min.js"></script>
 <!--===============================================================================================-->
@@ -399,19 +678,55 @@
 	<script type="text/javascript" src="vendor/lightbox2/js/lightbox.min.js"></script>
 <!--===============================================================================================-->
 	<script type="text/javascript" src="vendor/sweetalert/sweetalert.min.js"></script>
-	<script type="text/javascript">
-		// $('.block2-btn-addcart').each(function(){
-		// 	var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
-		// 	$(this).on('click', function(){
-		// 		swal(nameProduct, "is added to cart !", "success");
-		// 	});
-		// });
 
-		$('.block2-btn-addwishlist').each(function(){
-			var nameProduct = $(this).parent().parent().parent().find('.block2-name').html();
-			$(this).on('click', function(){
-				swal("Terima kasih!","Anda telah menyukai "+nameProduct+"!", "success");
-			});
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+	<script type="text/javascript">
+		$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+
+		$('#pagination-demo').twbsPagination({
+		  totalPages: 3,
+		  // the current page that show on start
+		  startPage: 1,
+
+		  // maximum visible pages
+		  visiblePages: 3,
+
+		  initiateStartPageClick: true,
+
+		  // template for pagination links
+		  href: false,
+
+		  // variable name in href template for page number
+		  hrefVariable: '{{number}}',
+
+		  // Text labels
+		  first: 'First',
+		  prev: 'Previous',
+		  next: 'Next',
+		  last: 'Last',
+
+		  // carousel-style pagination
+		  loop: false,
+
+		  // callback function
+		  onPageClick: function (event, page) {
+		    $('.page-active').removeClass('page-active');
+		    $('#page'+page).addClass('page-active');
+		  },
+
+		  // pagination Classes
+		  paginationClass: 'pagination',
+		  nextClass: 'next',
+		  prevClass: 'prev',
+		  lastClass: 'last',
+		  firstClass: 'first',
+		  pageClass: 'page',
+		  activeClass: 'active',
+		  disabledClass: 'disabled'
+
 		});
 	</script>
 
@@ -422,6 +737,7 @@
 	</script>
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
+
 
 </body>
 </html>
