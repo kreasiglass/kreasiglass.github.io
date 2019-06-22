@@ -34,6 +34,24 @@
 		<link rel="stylesheet" type="text/css" href="css/util.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	<!--===============================================================================================-->
+	<style type="text/css">
+		/* -- Responsive video embed -- */
+.responsive-video {
+  padding-bottom: 56.25%; /* for 16:9 ratio */
+  padding-top: 25px;
+  position: relative;
+  height: 0;
+}
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+	</style>
 </head>
 <body class="animsition">
 
@@ -610,9 +628,9 @@
 				<div class="col-sm-10 col-md-6 p-b-30 m-l-r-auto">
 					<!-- Block3 -->
 					<div class="block3">
-						<a href="blog.html" class="block3-img dis-block hov-img-zoom">
+						<div class="responsive-video">
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/Aqx8UJUFLkQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</a>
+						</div>
 
 						<div class="block3-txt p-t-14">
 							<h4 class="p-b-7">
